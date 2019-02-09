@@ -1,4 +1,16 @@
 # docker-java-base-images
 
--   **build-image/Dockerfile** : image for building java apps (oracle java 8 + maven 3.6.0)
--   **run-image/Dockerfile** : image for running java apps (oracle java 8 + prepared for different environments)
+Dockerfile-s for java world.
+
+-   **build-image/Dockerfile** : image for building java apps (Oracle java 8 + maven 3.6.0)
+-   **run-image/Dockerfile** : image for running java apps (Oracle java 8 + prepared for different environments)
+
+## Notes
+
+- user psz so no root execution
+- based on alpine so images are small
+- prepared for different environments thanks to build-args
+
+## TODO
+
+- run them
