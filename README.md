@@ -10,6 +10,7 @@ Dockerfile-s for java world.
 - user psz so no root execution
 - based on alpine so images are small
 - prepared for different environments thanks to build-args
+- run-image/Dockerfile uses another git project [app_props](https://github.com/peterszatmary/app_props)
 
 ## TODO
 
