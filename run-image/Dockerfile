@@ -25,3 +25,4 @@ RUN rm -r app_props
 RUN ls -la /home/psz/app
 RUN java -version
 RUN echo 'Building image for' ${environment} ${app}
+CMD ["/bin/sh"]

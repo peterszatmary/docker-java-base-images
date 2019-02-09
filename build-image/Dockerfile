@@ -30,3 +30,4 @@ RUN tar -xvf apache-maven-$MAVEN_VERSION-bin.tar.gz
 RUN rm -r apache-maven-$MAVEN_VERSION-bin.tar.gz
 
 RUN echo 'Building image for' ${environment} ${app}
+CMD ["/bin/sh"]
