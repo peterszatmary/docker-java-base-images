@@ -23,35 +23,35 @@ Dockerfile-s for java world.
 ### Build base image
 
 ```bash
-cd build-image
-sh build.sh
-sh run.sh
+$ cd build-image
+$ sh build.sh
+$ sh run.sh
 ```
 
 ### Run base image for dev env
 ```bash
-cd run-image
-sh build_dev.sh
-sh run_dev.sh
+$ cd run-image
+$ sh build_dev.sh
+$ sh run_dev.sh
 ```
 
 ### Run base image for sit env
 ```bash
-cd run-image
-sh build_sit.sh
-sh run_sit.sh
+$ cd run-image
+$ sh build_sit.sh
+$ sh run_sit.sh
 ```
 
 ### Run base image for cit env
 ```bash
-cd run-image
-sh build_cit.sh
-sh run_cit.sh
+$ cd run-image
+$ sh build_cit.sh
+$ sh run_cit.sh
 ```
 
 ### Run base image for prod env
 ```bash
-cd run-image
-sh build_prod.sh
-sh run_prod.sh
+$ cd run-image
+$ sh build_prod.sh
+$ sh run_prod.sh
 ```
