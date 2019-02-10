@@ -17,9 +17,9 @@ USER psz
 RUN mkdir /home/psz/app
 WORKDIR /home/psz/app
 
-# git clone, pre properties
+# git clone app properties into vm
 RUN git clone https://github.com/peterszatmary/app_props
-RUN mv app_props/${environment} .
+RUN mv app_props/${environment}/* /home/psz/app
 RUN rm -r app_props
 
 RUN ls -la /home/psz/app
