@@ -11,9 +11,9 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 ENV TZ SK
+ENV MAVEN_HOME /usr/share/maven
 
 ARG BASE_URL=https://apache.osuosl.org/maven/maven-3/${MAVEN_VERSION}/binaries
-ENV MAVEN_HOME /usr/share/maven
 
 RUN apk --update add bash git wget
 
