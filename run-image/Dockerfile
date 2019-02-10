@@ -9,6 +9,8 @@ LABEL maintainer="peter.szatmary@gmail.com"
 ARG environment
 ARG app
 
+ENV TZ SK
+
 RUN apk --update add bash git
 
 RUN adduser psz -h /home/psz -s /bin/bash -D
