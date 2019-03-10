@@ -1,7 +1,6 @@
 #
 # build image for java projects
 #
-FROM alpine:latest
 FROM eviles/alpine-oracle-jdk8
 
 LABEL maintainer="peter.szatmary@gmail.com"
