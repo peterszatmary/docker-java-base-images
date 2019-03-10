@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-docker build  -t build_base_image:1.0v .
+VERSION=${1}
+docker build -t build_base_image:${VERSION} .
