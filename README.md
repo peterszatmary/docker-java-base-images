@@ -3,6 +3,16 @@
 [![Docker Repository on Quay](https://quay.io/repository/peterszatmary/java_run_base/status "Docker Repository on Quay")](https://quay.io/repository/peterszatmary/java_run_base)
 [![Docker Repository on Quay](https://quay.io/repository/peterszatmary/java_build_base/status "Docker Repository on Quay")](https://quay.io/repository/peterszatmary/java_build_base)
 
+Type
+
+```bash
+docker pull quay.io/peterszatmary/java_build_base
+```
+
+```bash
+docker pull quay.io/peterszatmary/java_run_base
+```
+
 Dockerfile-s for java world.
 
 -   **build-image/Dockerfile** : image for building java apps (Oracle java 8 + maven 3.6.0)
