@@ -1,7 +1,7 @@
 #
 # run image for java applications
 #
-FROM eviles/alpine-oracle-jdk8
+FROM lwieske/java-8:jdk-8u191-slim
 
 LABEL maintainer="peter.szatmary@gmail.com"
 

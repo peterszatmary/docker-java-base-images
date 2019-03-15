@@ -1,7 +1,7 @@
 #
 # build image for java projects
 #
-FROM eviles/alpine-oracle-jdk8
+FROM lwieske/java-8:jdk-8u191-slim
 
 LABEL maintainer="peter.szatmary@gmail.com"
 
@@ -14,7 +14,7 @@ ENV MAVEN_HOME /usr/share/maven
 
 ARG BASE_URL=https://apache.osuosl.org/maven/maven-3/${MAVEN_VERSION}/binaries
 
-RUN apk --update add bash git wget
+RUN apk --update add bash git curl wget
 
 RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
   && curl -fsSL -o /tmp/apache-maven.tar.gz ${BASE_URL}/apache-maven-${MAVEN_VERSION}-bin.tar.gz \
